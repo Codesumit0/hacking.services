@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" alt="HackerZone Logo" class="logo">
+                <h1>HackerZone</h1>
+            </div>
+            <div class="header-image">
+                <img src="hackerimg.jpg" alt="Cybersecurity Illustration" class="header-illustration">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="service-chart">
+                <h2>Our Services</h2>
+                <div class="chart-container">
+                    <div class="service-item">
+                        <img src="https://img.icons8.com/color/96/000000/shield.png" alt="Basic Security" class="service-icon">
+                        <h3>Instagram</h3>
+                        <p class="price">₹1999/- or $25</p>
+                        <ul>
+                            <li>Only need username</li>
+                            <li>victim does't know anything else </li>
+                            <li>Security codes also provide</li>
+                        </ul>
+                    </div>
+                    <div class="service-item featured">
+                        <img src="https://img.icons8.com/color/96/000000/security-checked.png" alt="Professional Security" class="service-icon">
+                        <h3>Whatsapp</h3>
+                        <p class="price">₹1999/- or $25</p>
+                        <ul>
+                            <li>Need only phone number</li>
+                            <li>Full chat access</li>
+                            <li>you can use the same whatsapp account in your phone </li>
+                            <li>24/7 Priority Support</li>
+                        </ul>
+                    </div>
+                    <div class="service-item">
+                        <img src="https://img.icons8.com/color/96/000000/security-guard.png" alt="Enterprise Security" class="service-icon">
+                        <h3>full phone access</h3>
+                        <p class="price">₹4999/- or $60</p>
+                        <ul>
+                            <li>Full Gallerry access</li>
+                            <li>all social media access</li>
+                            <li>Monitor victim phone screen</li>
+                            <li>life time access</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment-section">
+            <h2>Make a Payment</h2>
+            <div class="payment-container">
+                <div class="qr-code">
+                    <img src="Qr-img.jpg" alt="Payment QR Code">
+                </div>
+                <div class="payment-details">
+                    <h3>Scan to Pay</h3>
+                    <p>Use any UPI app to scan the QR code</p>
+                    <p class="amount">Amount: ₹499</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Victim Information</h2>
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Victim Username or Phone number</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email for Response</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Service Name</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">UTR or Referal Number</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h2>Client Reviews</h2>
+            <div class="testimonial-container">
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-number">4.8</span>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <p class="review-text">"Amazing service! Sir thank U, you saved my life, aapki bajah sa mera realtionship bacha hai best service hai sir aapki sari."</p>
+                        <div class="client-info">
+                            <span class="client-name">- Sonali.</span>
+                            <span class="service-used">WhatsApp Service</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="review-text">"bhaiya thank you tumhari bajah sa mujha mera bf ka account ka access mil paya so thank you a lot meri taraf sa aapko khud sara dhanyabaad !"</p>
+                        <div class="client-info">
+                            <span class="client-name">- Yogesh Kumar.</span>
+                            <span class="service-used">Instagram Service</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="review-text">"The full phone access service is incredible. Everything worked as promised, and the support team was available 24/7. Very professional and discreet service."</p>
+                        <div class="client-info">
+                            <span class="client-name">- Ishika saxena</span>
+                            <span class="service-used">Full Phone Access</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback-section">
+            <h2>Share Your Experience</h2>
+            <div class="feedback-container">
+                <form id="feedbackForm" class="feedback-form">
+                    <div class="form-group">
+                        <label for="feedbackName">Your Name</label>
+                        <input type="text" id="feedbackName" name="feedbackName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedbackService">Service Used</label>
+                        <select id="feedbackService" name="feedbackService" required>
+                            <option value="">Select Service</option>
+                            <option value="instagram">Instagram Service</option>
+                            <option value="whatsapp">WhatsApp Service</option>
+                            <option value="phone">Full Phone Access</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Rating</label>
+                        <div class="rating-input">
+                            <span class="star" data-rating="1">★</span>
+                            <span class="star" data-rating="2">★</span>
+                            <span class="star" data-rating="3">★</span>
+                            <span class="star" data-rating="4">★</span>
+                            <span class="star" data-rating="5">★</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedbackMessage">Your Review</label>
+                        <textarea id="feedbackMessage" name="feedbackMessage" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+                <a href="https://twitter.com/code_sumit0" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/codesumit0" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/code_sumit" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HackerZone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Floating Chat Support -->
+    <a href="https://instagram.com/code_sumit" target="_blank" class="chat-support">
+        <div class="chat-icon">
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="chat-text">
+            <span>Chat with us</span>
+            <small>DM on Instagram</small>
+        </div>
+    </a>
+</body>
+</html> 
