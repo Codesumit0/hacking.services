@@ -175,7 +175,7 @@ function addDiscountToServices() {
             discountBadge.className = 'discount-badge';
             discountBadge.innerHTML = `
                 <h3>🎉 Special Offer! 🎉</h3>
-                <p>Get 75% OFF on this service!</p>
+                <p>Get 50% OFF on this service!</p>
                 <div class="countdown">
                     <span id="hours">01</span>:
                     <span id="minutes">00</span>:
